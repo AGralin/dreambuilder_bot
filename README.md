@@ -35,3 +35,10 @@ Thursday Topics:
   https://pypi.org/project/technical/
 2. rough out our bot
 
+Monday- 1/23/2023
+How to consolidate all the info? 
+2 main notebooks: sentiment (fear and greed and pytrend) vs. technical analysis vs.(technical analysis + pytrend)
+machine learning model: neural network, xgb classifer using PCA, which feature we are using
+Adam: run through machine learning, consolidate the sentiment one
+Faith: run through neural network (class example)
+Yen: consolidate technical and post. look at the neural netowork and xgb classifer
