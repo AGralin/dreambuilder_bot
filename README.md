@@ -42,3 +42,4 @@ machine learning model: neural network, xgb classifer using PCA, which feature w
 Adam: run through machine learning, consolidate the sentiment one
 Faith: run through neural network (class example)
 Yen: consolidate technical and post. look at the neural netowork and xgb classifer
+Presentation link: https://docs.google.com/presentation/d/1fAUcKBnPSYuA1uKHxiDll2qpuJW9IMas/edit#slide=id.p1
