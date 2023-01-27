@@ -1,45 +1,40 @@
-# dreambuilder_bot
+# Dreambuilder Bot
+### Where we build Dreams and MVPs
+### By: Adam, Faith, and Yen
+--------------------------------------------
 
-Project Proposal: 
+**Purpose of Project:** To identify when to buy, hold, and sell crypto using technical and sentiment analysis without being impacted by our emotions.
 
-Problem Statement: 
-When to buy and sell based on technical and sentiment analysis? How to take the emotion out of the trades? 
+**Questions:**
+- Which analysis is better to predict price movement for crypto: technical or sentiment? 
+- Is there a way to identify a channel and break-outs?
+- Which machine learning model will optimize the results?
 
-Question we want to answer: 
-Which is more important technical or sentiment analysis? 
-How to identify channel and break out? 
-Find a machine model that will optimize the results?
+**Data Collection:**
+- Financial Data: Yahoo Finance and Alpaca Markets
+- Sentiment Indicators: Fear and Greed and Pytrend
+- Technical Indicators: Market Momentum, Hammer and Doji Candlesticks, Chaikin and ER, RSI, and Vortex. 
 
-High level Action Items:
-1.	Link to git branch: https://umn.bootcampcontent.com/University-of-Minnesota-Boot-Camp/UofM-VIRT-FIN-PT-09-2022-U-LOLC/-/tree/main/01-Sessions/08-Project-1/1/Activities/03-Stu_Branching-Pushing
-2. API for Sentiment analysis (Adam and Faith)
-3. Library for technical analysis (Yen)
-4. API to get live data (Adam)
-5. machine learning model for crypto (Yen)
+**Data Set:**
 
-Thursday Topics:
-1. share findings
-  Research: 
-  https://www.coindesk.com/tech/2020/10/16/five-machine-learning-methods-crypto-traders-should-know-about/
-  Reinforcement Learning git hub: https://github.com/sadighian/crypto-rl
-  https://simoninithomas.github.io/Deep_reinforcement_learning_Course/
-  http://videolectures.net/deeplearning2016_pineau_reinforcement_learning/
-  https://www.unite.ai/best-ai-crypto-trading-bots/
+**Apply a dimensionality reduction technique to reduce the input features, or perform feature engineering to generate new features to train the model:** Link: https://www.simplilearn.com/what-is-dimensionality-reduction-article
 
-  Candlestick pattern: 
-  pip install Candlestick
-  https://pypi.org/project/Candlestick/
-  pip install japanese-candlestick
-  https://pypi.org/project/japanese-candlestick/
-  technical 1.3.0 
-  https://pypi.org/project/technical/
-2. rough out our bot
+- Use Decision Tree. It is one of dimensionality reduction technique
 
-Monday- 1/23/2023
-How to consolidate all the info? 
-2 main notebooks: sentiment (fear and greed and pytrend) vs. technical analysis vs.(technical analysis + pytrend)
-machine learning model: neural network, xgb classifer using PCA, which feature we are using
-Adam: run through machine learning, consolidate the sentiment one
-Faith: run through neural network (class example)
-Yen: consolidate technical and post. look at the neural netowork and xgb classifer
-Presentation link: https://docs.google.com/presentation/d/1fAUcKBnPSYuA1uKHxiDll2qpuJW9IMas/edit#slide=id.p1
+**Machine Learning Models:**
+
+**Results of Trained Models:**
+
+**Prediction using New Sample Data:**
+
+**Conclusion:**
+
+**Requirements to Run Codes:**
+- Python 3.8 version
+- Alpaca Keys and env file
+- Pytrend account
+
+
+
+**Presentation link:**  https://docs.google.com/presentation/d/1fAUcKBnPSYuA1uKHxiDll2qpuJW9IMas/edit#slide=id.p1
+
