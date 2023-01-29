@@ -6,26 +6,40 @@
 **Purpose of Project:** To identify when to buy, hold, and sell crypto using technical and sentiment analysis without being impacted by our emotions.
 
 **Questions:**
-- Which analysis is better to predict price movement for crypto: technical or sentiment? 
-- Is there a way to identify a channel and break-outs?
+- Which analysis is better to predict price movement for cryptos: technical or sentiment? 
+- Can we combine sentiment and technical analysis with machine learning to build a profitable bot?
 - Which machine learning model will optimize the results?
 
 **Data Collection:**
-- Financial Data: Yahoo Finance and Alpaca Markets
-- Sentiment Indicators: Fear and Greed, Pytrends, and Twitter
-- Technical Indicators: Market Momentum, Hammer and Doji Candlesticks, Chaikin and ER, RSI, EMA, and Vortex. 
+- Yahoo Finance: Historical crypto price data (Daily timeframe)
+- Requests library: to access API for Fear and Greed value
+- FinTA library: easy to implement technical indicators
+- Pytrends: daily reading of google searches for different cryptocurrencies
+- Tweepy: Library to access twitter API for sentiment analysis.
+- Japanese Candlestick library: for advanced technical indicators (Hammer & Doji)
+- Alternative.me:  API used to pull Fear and Greed value
+- Websocket-client: for pulling live crypto prices (every 10 seconds). Worked with the Binance API and Alpaca API
 
 **Data Set:**
+- Fear and Greed: This algorithm uses the daily Fear and Greed reading to determine whether to go long or short on a cryptocurrency. 
+- Market momentum: the aggregate rate of acceleration for the broader market as a whole. It indicates if the trend is sustainable in the future. If MoM is greater than 0 then it is bullish and MoM is less than 0 it is bearish. 
+- Chaikin Oscillator: measure the accumulation-distribution line of moving average convergence-divergence (MACD). It indicates if institutions/whales are buying or selling. 
+- Kaufman Efficiency Ratio (ER): provide a method of quantifying a market’s noise. It assists with identifying false break out. 
+- Vortex: spot trend reversals and confirm current trend by using a pair of oscillating lines. One to identify positive trend movement and the other to identify negative price movement. When the two crosses between the lines trigger buy and sell signals that are designed to capture the most dynamic trending action, higher or lower. 
+- Relative Strength Index (RSI): measure the speed and magnitude of the recent price changes to evaluate overvalued or undervalued conditions in the price. Overvalued>70% and Undervalued < 30%
 
 **Apply a dimensionality reduction technique to reduce the input features, or perform feature engineering to generate new features to train the model:** Link: https://www.simplilearn.com/what-is-dimensionality-reduction-article
 
 - Use Decision Tree. It is one of dimensionality reduction techniques
 
 **Machine Learning Models:**
-- SVM
-- MLPClassifier
-- Logistic regression?
-- XGBoost
+- SVM: is a supervised learning model that we can use for classification and regression analysis. SVM separates classes of data points into multidimensional space. 
+
+- MLPClassifier:  is a technique of feed-forward artificial neural networks using a back propagation learning method to classify the target variable used for supervised learning.
+
+- Logistic regression: is a supervised machine learning model. It finds the best fit logistic function to describe the relationship between input variables (X) and a categorical output variable (y).
+
+- XGBoost: is an ensemble learning algorithm that make predictions using Decision Trees.
 
 **Results of Trained Models:**
 
@@ -39,6 +53,6 @@
 - Twitter account
 
 
-
 **Presentation link:**  https://docs.google.com/presentation/d/1fAUcKBnPSYuA1uKHxiDll2qpuJW9IMas/edit#slide=id.p1
+
 
