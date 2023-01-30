@@ -42,7 +42,7 @@
 
 - XGBoost: is an ensemble learning algorithm that make predictions using Decision Trees.
 
-**Results of Trained Models(SVM):**
+**Results of Trained Models (SVM):**
 
 ![SVM_results](Images/SVM_3.png)
 
@@ -53,15 +53,14 @@
 ![ML_results](Images/ML_2.png)
 
 **Conclusion:**
-At every fork in the road, we kept moving forward with MVP, but left lots of successful strategies to be explored. Both technical and sentiment analysis can be used with machine learning to build trading bots with high ROIs. From our results, we recommend using either technical or sentiment analysis but not both. We also recommend creating a maintainence plan for your bot to monitor and tweak the model on a regular basis. 
-
+At every fork in the road, we kept moving forward with MVP, but left lots of successful strategies to be explored. Both technical and sentiment analysis can be used with machine learning to build trading bots with high ROIs. From our results, we recommend using either technical or sentiment analysis but not both. We also recommend creating a maintenance plan for the bot in order to monitor and tweak the model on a regular basis. 
 
 **Requirements to Run Codes:**
 - Python 3.8 version
 - Alpaca Keys and env file
 - Twitter account
 
-
 **Presentation link:**  https://docs.google.com/presentation/d/1fAUcKBnPSYuA1uKHxiDll2qpuJW9IMas/edit#slide=id.p1
+
 
 
