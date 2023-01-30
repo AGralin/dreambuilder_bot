@@ -21,7 +21,7 @@
 - Websocket-client: for pulling live crypto prices (every 10 seconds). Worked with the Binance API and Alpaca API
 
 **Data Set:**
-- Fear and Greed: This algorithm uses the daily Fear and Greed reading to determine whether to go long or short on a cryptocurrency. 
+- Fear and Greed: Algorithm uses the daily Fear and Greed reading to determine whether to go long or short on a cryptocurrency. 
 - Market momentum: the aggregate rate of acceleration for the broader market as a whole. It indicates if the trend is sustainable in the future. If MoM is greater than 0 then it is bullish and MoM is less than 0 it is bearish. 
 - Chaikin Oscillator: measure the accumulation-distribution line of moving average convergence-divergence (MACD). It indicates if institutions/whales are buying or selling. 
 - Kaufman Efficiency Ratio (ER): provide a method of quantifying a market’s noise. It assists with identifying false break out. 
@@ -42,12 +42,12 @@
 
 - XGBoost: is an ensemble learning algorithm that make predictions using Decision Trees.
 
-**Results of Trained Models:**
+**Results of Trained Models(SVM):**
 
-**Prediction using New Sample Data:**
+![SVM_results](images/SVM_3.png)
 
 **Conclusion:**
-At every fork in the road, we kept moving forward with MVP, but left lots of successful strategies to be explored. Both technical and sentiment analysis can be used with machine learning to build trading bots with high ROIs. From our results, we recommend using either technical or sentiment analysis but not both. We also recommend to create a maintainence plan for bot to monitor and tweak the model on a regular basis. 
+At every fork in the road, we kept moving forward with MVP, but left lots of successful strategies to be explored. Both technical and sentiment analysis can be used with machine learning to build trading bots with high ROIs. From our results, we recommend using either technical or sentiment analysis but not both. We also recommend creating a maintainence plan for your bot to monitor and tweak the model on a regular basis. 
 
 
 **Requirements to Run Codes:**
