@@ -29,7 +29,7 @@
 - Relative Strength Index (RSI): measure the speed and magnitude of the recent price changes to evaluate overvalued or undervalued conditions in the price. Overvalued>70% and Undervalued < 30%
 
 **Apply a dimensionality reduction technique to reduce the input features, or perform feature engineering to generate new features to train the model:** Link: https://www.simplilearn.com/what-is-dimensionality-reduction-article
-
+- 
 - Use Decision Tree. It is one of dimensionality reduction techniques
 
 **Machine Learning Models:**
@@ -46,6 +46,8 @@
 **Prediction using New Sample Data:**
 
 **Conclusion:**
+At every fork in the road, we kept moving forward with MVP, but left lots of successful strategies to be explored. Both technical and sentiment analysis can be used with machine learning to build trading bots with high ROIs. From our results, we recommend using either technical or sentiment analysis but not both. We also recommend to create a maintainence plan for bot to monitor and tweak the model on a regular basis. 
+
 
 **Requirements to Run Codes:**
 - Python 3.8 version
