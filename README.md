@@ -46,6 +46,12 @@
 
 ![SVM_results](Images/SVM_3.png)
 
+---
+
+**Results of Trained Models (Logistic regression and XGB):**
+
+![ML_results](Images/ML_2.png)
+
 **Conclusion:**
 At every fork in the road, we kept moving forward with MVP, but left lots of successful strategies to be explored. Both technical and sentiment analysis can be used with machine learning to build trading bots with high ROIs. From our results, we recommend using either technical or sentiment analysis but not both. We also recommend creating a maintainence plan for your bot to monitor and tweak the model on a regular basis. 
 
